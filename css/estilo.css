@@ -1,0 +1,109 @@
+.pai{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: candara;
+}
+#li{
+	font-size: 20px;
+}
+.topo{
+	height: 40%;
+	width: 100%;
+	background-color: #9B8449;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+} 
+.imgif{
+	width: 10%;
+	height: 20vh;
+	display: flex;
+
+}
+.tit{
+	font-size: 55px;
+}
+#logo{
+	margin-top: 5px;
+}
+.restante{
+	width: 70%;
+	height: 20vh;
+	display: flex;
+	font-family: candara;
+	font-size:32px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+.footer{
+	display: flex;
+	background-color: #9B8449;
+	height: 20%;
+	width: 100%;
+	font-family: candara;
+	font-size: 20px;
+	justify-content: center;
+}
+.quadrinhos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.q1{
+	height: 300px;
+  	width: 300px;
+  	display: flex;
+  	margin: 10px;
+}
+.corpo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.m4{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #D9D9D9;
+	margin: 10px;
+	padding: 10px;
+	width: 20%;
+	height: 85vh;
+}
+
+.oqé{
+	display: flex;
+	flex-direction: column;
+	background-color: #D9D9D9;
+	margin: 10px;
+
+}
+.t{
+	margin: 15px;
+}
+@media(max-width:760px){
+	.m4{
+  	width: 40%;
+  	height: 100vh;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    }
+    .q1{
+    width: 40%;
+    float: left;
+    
+    }
+    .topo, .tit, .restante{
+    	width: 100%;
+    	justify-content: center;
+    	font-size: 40px;
+    }
+}
